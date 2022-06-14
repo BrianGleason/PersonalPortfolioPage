@@ -1,20 +1,14 @@
+import TextAnimation from "./TextAnimation"
+
 export default function Navbar() {
     return (
         <nav className = "navbar-nav">
-            <h4 className="navbar-logotext">Brian Gleason</h4>
+            <h4 className="navbar-logotext"><TextAnimation text="Brian Gleason"/></h4>
             <div className="navbar-navs">
-                <div>
-                    <h4 classname="navbar-option" style={{color:"#faec98"}}>Overview </h4>
-                </div>
-                <div>
-                    <h4 classname="navbar-option"> Experience </h4>
-                </div>
-                <div>
-                    <h4 classname="navbar-option" style={{color:"#fa9b6b"}}> Projects </h4>
-                </div>
-                <div>
-                    <h4 classname="navbar-option"style={{color:"#fa8773"}}> Resume</h4>
-                </div>
+                <h4 style={{color:"#faec98"}}><TextAnimation text="Overview"/> </h4>
+                <h4> <TextAnimation text="Experience"/> </h4>
+                <h4 style={{color:"#fa9b6b"}}> <TextAnimation text="Projects"/> </h4>
+                <h4 style={{color:"#fa8773"}}> <TextAnimation text="Resume"/></h4>
             </div>
         </nav>
     )

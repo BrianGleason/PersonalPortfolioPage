@@ -50,10 +50,6 @@ body {
   gap: 5rem;
 }
 
-.navbar-option {
-  margin: 5rem;
-}
-
 .navbar-icon {
   height: 5rem;
   margin-right: 7px;
@@ -61,22 +57,24 @@ body {
 
 .aboutme-wrapper{
   align-items: center;
-  margin: 10% 20%;
-  font-weight: 600;
+  margin: 10% 25%;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
 .aboutme-line {
   color: #f5f0e4;
   line-height: 150%;
+  font-weight: 400;
   margin: 1rem 1rem;
 }
 
 .aboutme-name {
   color: #f5f0e4;
   font-weight: 400;
-  font-size: 1.25rem;
-  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0rem 0rem 1rem;
+  margin: 0% 0%;
 }
 
 .card {
