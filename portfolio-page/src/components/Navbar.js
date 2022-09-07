@@ -1,14 +1,30 @@
 import TextAnimation from "./TextAnimation"
+import {LIGHT_ORANGE, ORANGE, RED} from "../utilities/Constants"
 
-export default function Navbar() {
+export default function Navbar({goToExperience, goToProjects, goToResume}) {
+    const goToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+      };
+
     return (
         <nav className = "navbar-nav">
             <h4 className="navbar-logotext"><TextAnimation text="Brian Gleason"/></h4>
             <div className="navbar-navs">
-                <h4 style={{color:"#faec98"}}><TextAnimation text="Overview"/> </h4>
-                <h4> <TextAnimation text="Experience"/> </h4>
-                <h4 style={{color:"#fa9b6b"}}> <TextAnimation text="Projects"/> </h4>
-                <h4 style={{color:"#fa8773"}}> <TextAnimation text="Resume"/></h4>
+                <div className="navbar-btn" onClick={goToTop}> 
+                    <div className="navbar-btn-text"><TextAnimation text="Overview"/></div>
+                </div>
+                <div className="navbar-btn" onClick={goToExperience}> 
+                    <div className="navbar-btn-text" style={{color: LIGHT_ORANGE}}><TextAnimation text="Experience"/></div>
+                </div>
+                <div className="navbar-btn" onClick={goToProjects}> 
+                    <div className="navbar-btn-text" style={{color: ORANGE}}><TextAnimation text="Projects"/></div>
+                </div>
+                <div className="navbar-btn" onClick={goToResume}> 
+                    <div className="navbar-btn-text" style={{color: RED}}><TextAnimation text="Resume"/></div>
+                </div>
             </div>
         </nav>
     )
