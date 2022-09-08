@@ -1,19 +1,13 @@
 import TextAnimation from "./TextAnimation"
 import {LIGHT_ORANGE, ORANGE, RED} from "../utilities/Constants"
 
-export default function Navbar({goToExperience, goToProjects, goToResume}) {
-    const goToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth',
-        });
-      };
+export default function Navbar({goToAbout, goToExperience, goToProjects, goToResume}) {
 
     return (
         <nav className = "navbar-nav">
             <h4 className="navbar-logotext"><TextAnimation text="Brian Gleason"/></h4>
             <div className="navbar-navs">
-                <div className="navbar-btn" onClick={goToTop}> 
+                <div className="navbar-btn" onClick={goToAbout}> 
                     <div className="navbar-btn-text"><TextAnimation text="Overview"/></div>
                 </div>
                 <div className="navbar-btn" onClick={goToExperience}> 

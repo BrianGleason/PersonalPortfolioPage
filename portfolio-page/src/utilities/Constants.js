@@ -2,7 +2,7 @@ import CROWNS from './CROWNS.jpg'
 import TwitterAwardShowNLP from './TwitterAwardShowNLP.jpg';
 import CMECollage from './CMECollage.jpg';
 import CHCollage from './CHCollage.jpg';
-import PMCollage from './PMCollage.jpg';
+import PMCollage from './PMCollage (1).jpg';
 
 
 export const YELLOW = "#faec98";

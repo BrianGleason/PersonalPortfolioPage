@@ -27,8 +27,8 @@ body {
   display: flex;
   align-items: center;
   background-color: #3d392f;
-  height: 6rem;
-  padding: 3rem 4rem;
+  height: 80px;
+  padding: 48px 64px;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -77,6 +77,29 @@ body {
   margin-right: 7px;
 }
 
+.scroll-btn-container {
+  position: absolute;
+  left: 50%;
+  margin-left: -21px;
+}
+
+.arrow {
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 3px 3px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 5px;
+  border-right-width: 5px;
+  cursor: pointer;
+}
+
 .aboutme-wrapper{
   align-items: center;
   max-width: 1000px;
@@ -84,6 +107,19 @@ body {
   margin: auto;
   margin-bottom: 1rem;
   margin-top: 5rem;
+  margin-left: 2rem;
+  margin-right: 5rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.resumeContainer-wrapper{
+  align-items: center;
+  max-width: 1000px;
+  max-height: 500px;
+  margin: auto;
+  margin-bottom: 1rem;
+  margin-top: 10rem;
   margin-left: 2rem;
   margin-right: 5rem;
   font-weight: 400;
