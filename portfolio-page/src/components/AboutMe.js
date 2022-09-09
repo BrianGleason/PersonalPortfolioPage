@@ -1,6 +1,4 @@
 import TextAnimation from "./TextAnimation"
-import {YELLOW} from "../utilities/Constants"
-
 
 export default function AboutMe() {
     const textblock = `I'm a computer science major and rising senior at Northwestern University. I'm excited to develop my career and my abilities as a software engineer

@@ -19,7 +19,10 @@ export default function ItemSelector({input, title, color}) {
                             ))}  
                         </div>
                         <div>
-                            <h4 className="itemselector-line"><TextAnimation text={selectedElement.description}/></h4>
+                            {selectedElement.description.map((line) => (
+                                <h4 className="itemselector-line">{line}</h4>
+
+                            ))}
                         </div>
                     </div>
                 </div>

@@ -8,7 +8,7 @@ export default function Navbar({goToAbout, goToExperience, goToProjects, goToRes
             <h4 className="navbar-logotext"><TextAnimation text="Brian Gleason"/></h4>
             <div className="navbar-navs">
                 <div className="navbar-btn" onClick={goToAbout}> 
-                    <div className="navbar-btn-text"><TextAnimation text="Overview"/></div>
+                    <div className="navbar-btn-text"><TextAnimation text="About Me"/></div>
                 </div>
                 <div className="navbar-btn" onClick={goToExperience}> 
                     <div className="navbar-btn-text" style={{color: LIGHT_ORANGE}}><TextAnimation text="Experience"/></div>

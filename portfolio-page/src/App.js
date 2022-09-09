@@ -44,12 +44,6 @@ function App() {
   })};
   const screenheight = window.screen.height;
 
-  /*
-  <SocialIcon url="https://linkedin.com/in/brian-gleason1" bgColor='#ffffff'></SocialIcon>
-      <SocialIcon url="https://github.com/BrianGleason" bgColor='#ffffff'></SocialIcon>
-      <SocialIcon url="mailto:briangleason2023@u.northwestern.edu" bgColor='#ffffff' network="email"></SocialIcon>
-  */
-
   return (
     <div>
       <ParticlesBg type="cobweb" bg={{zIndex: -1,width: "100%", height: "600%", position: "absolute"}} num={300}/>
@@ -57,11 +51,16 @@ function App() {
     
       
       <div className="scroll-btn-container" style={{top: `${(window.screen.height) * .75}px`}}>
-          <div class="arrow" onClick={goToExperience} ></div>
+          <div className="arrow" onClick={goToExperience} ></div>
       </div> 
 
       <div style={{display: "grid", gridTemplateColumns: "50% 50%", height: `${window.screen.height - 96}px`}} ref={aboutSection}>
           <AboutMe/>
+          <div style={{display: "flex", flexDirection: "column", alignItems: "flex-end", margin: "2rem", gap: "1rem"}}>
+              <SocialIcon url="https://linkedin.com/in/brian-gleason1" bgColor='#ffffff' style={{height: "3.75rem", width: "3.75rem"}}></SocialIcon>
+              <SocialIcon url="https://github.com/BrianGleason" bgColor='#ffffff' style={{height: "3.75rem", width: "3.75rem"}}></SocialIcon>
+              <SocialIcon url="mailto:briangleason2023@u.northwestern.edu" bgColor='#ffffff' network="email" style={{height: "3.75rem", width: "3.75rem"}}></SocialIcon>
+          </div>
       </div>  
 
       <div style={{display: "flex", height: `${screenheight}px`}} ref={experienceSection}>
@@ -69,7 +68,7 @@ function App() {
       </div>
       
       <div className="scroll-btn-container" style={{top: `${window.screen.height + (window.screen.height * .75)}px`}}>
-          <div class="arrow" onClick={goToProjects} ></div>
+          <div className="arrow" onClick={goToProjects} ></div>
       </div> 
 
       <div style={{display: "flex", minHeight: `${screenheight}px`}} ref={projectsSection}>
