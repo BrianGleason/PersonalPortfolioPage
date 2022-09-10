@@ -66,7 +66,6 @@ export const MOBILE_PROJECTS_DATA = [
     {
         "name": "CROWNS Prototype",
         "description": ["In four weeks, developed a product prototype webapp with team of classmates for team of MBA students at Northwestern's Kellogg School of Management to help people with less common hairtypes.",
-        "CROWNS was designed to provide users a way to learn more about their hair and a community that can support them in finding products, stylists, and haircare recommendations from people who have had similar experiences.",
         "Built the prototype using React for the frontend, Google Auth for user information and security, Google Firestore and Firebase for data storage, Cypress for end-to-end testing, and Github Workflows for the CI/CD pipeline.",
         "Utilized frequent user testing, generation of user stories, and feedback from the project management team to continually improve user experience."],   
         "image": CROWNS
@@ -78,7 +77,7 @@ export const MOBILE_PROJECTS_DATA = [
         "image": TwitterAwardShowNLP
     },
     {
-        "name": "Online Learning",
+        "name": "Online Learning Algorithms",
         "description": ["Using Python and Jupyter Notebook, wrote reports on the performance and applicability of different learning algorithms like Exponential Weights and Multi-Armed Bandit as a response to a variety of auction and bidding related optimization problems.",
         "Composed formal reports comparing these algorithms' performance and learning rates through Monte Carlo Trials against various distributions and historical datasets, and designed adversarial algorithms that could take advantage of specific learning algorithms.",
         "*Because this work was for a class that may re-use the prompts I was given, my work is not available here. If you're curious, feel free to contact me at me email or on LinkedIn for a copy of a report, links at the top of the page."],

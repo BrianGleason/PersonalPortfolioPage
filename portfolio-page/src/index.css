@@ -165,10 +165,20 @@ body {
   margin: auto;
   margin-bottom: 1rem;
   margin-top: 10rem;
-  margin-left: 2rem;
-  margin-right: 5rem;
   font-weight: 400;
   font-size: 1.5rem;
+}
+
+.mobile-resumeContainer-wrapper{
+  align-items: center;
+  max-width: 1000px;
+  max-height: 500px;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  flex: 100%;
+  margin-top: 0rem;
 }
 
 .itemselector-wrapper{
@@ -204,7 +214,7 @@ body {
   color: #f5f0e4;
   line-height: 150%;
   font-weight: 400;
-  font-size: 1.75vh;
+  font-size: 1.5vh;
   margin: 0rem 0rem 0rem 0rem;
   padding: 1vh 1vh 1vh 1vh;
 }
@@ -298,8 +308,14 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
+.itemselector-display-wrapper{
+  display: flex;
+}
+
 .mobile-itemselector-display-wrapper{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .buttons-wrapper{
@@ -334,15 +350,21 @@ body {
 .mobile-button-selector {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 1.5vw;
   text-align: center;
   background-color: #f5f0e4;
   font-weight: 400;
-  font-size: 3vw;
+  font-size: 2.25vw;
   width: 21vw;
 }
 
 .button-selector:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #ffd5a1;
+  cursor: pointer;
+}
+
+.mobile-button-selector:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   background-color: #ffd5a1;
   cursor: pointer;

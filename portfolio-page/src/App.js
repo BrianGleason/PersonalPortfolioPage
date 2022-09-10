@@ -20,7 +20,7 @@ function App() {
       }
   }, []);
   console.log(width)
-  const isMobile = width <= 768;
+  const isMobile = width <= 768 || height > width;
 
   if (!isMobile){
     return (
