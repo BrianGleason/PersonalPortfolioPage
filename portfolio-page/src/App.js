@@ -1,6 +1,7 @@
 import {useEffect, useState} from 'react';
 import './App.css';
 import WebApp from './components/WebApp';
+import MobileApp from './components/MobileApp';
 
 
 function App() {
@@ -28,9 +29,7 @@ function App() {
   }
   else {
     return(
-      <div style={{color: '#ffffff'}}> Sorry, this page is not currently configured for mobile dimensions. I am currently working on it, and it will be 
-        available in a future release.
-      </div>
+      <MobileApp/>
     )
   }
   

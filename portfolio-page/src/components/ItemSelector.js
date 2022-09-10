@@ -20,14 +20,13 @@ export default function ItemSelector({input, title, color}) {
                         <div>
                             {selectedElement.description.map((line) => (
                                 <h4 className="itemselector-line">{line}</h4>
-
                             ))}
                         </div>
                     </div>
                 </div>
             </div>
-            <div style={{display: "flex", justifyContent: "center", flex: "1"}}>
-                <img src={selectedElement.image} style={{maxWidth: "90%", maxHeight: "90%", justifySelf: "center", alignSelf: "top", padding: "10rem 0rem 0rem 0rem"}} alt={""}></img>
+            <div style={{display: "flex", justifyContent: "center", alignItems: "top", flex: "1"}}>
+                <img src={selectedElement.image} style={{padding: "10rem 0rem 0rem 0rem", maxWidth: "90%", maxHeight: "90%", objectFit: "contain", objectPosition: "center top"}} alt={""}></img>
             </div>
         </div>
 

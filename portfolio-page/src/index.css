@@ -77,6 +77,41 @@ body {
   margin-right: 7px;
 }
 
+
+
+.mobile-navbar-nav {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d392f;
+  height: 10vh;
+  padding: 1vh 1vh;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.mobile-navbar-btn {
+  background-color: #3d392f;
+  border-radius: 1vh;
+  outline: none;
+  border: none;
+  padding: 1vh;
+}
+
+.mobile-navbar-btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: #595447;
+  cursor: pointer;
+}
+
+.mobile-navbar-btn-text {
+  font-weight: 600;
+  font-size: 4vw;
+  color: #faec98;
+}
+
 .scroll-btn-container {
   position: absolute;
   left: 50%;
@@ -113,6 +148,16 @@ body {
   font-size: 1.5rem;
 }
 
+.mobile-aboutme-wrapper{
+  width: 70vw;
+  margin-left: 8vw;
+  margin-top: 10vw;
+  max-height: 80vh;
+  font-weight: 400;
+  font-size: 1.5rem;
+  min-height: 100vh;
+}
+
 .resumeContainer-wrapper{
   align-items: center;
   max-width: 1000px;
@@ -135,7 +180,6 @@ body {
   margin-bottom: 0rem;
   margin-top: 10rem;
   margin-left: 2rem;
-  margin-right: 2rem;
   font-weight: 400;
   font-size: 1.5rem;
 }
@@ -148,6 +192,22 @@ body {
   margin: 0rem 1rem 1rem 0rem;
 }
 
+.mobile-itemselector-wrapper{
+  align-items: center;
+  width: 80vw;
+  max-height: 80vh;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.mobile-itemselector-line{
+  color: #f5f0e4;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 1.75vh;
+  margin: 0rem 0rem 0rem 0rem;
+  padding: 1vh 1vh 1vh 1vh;
+}
 .aboutme-line {
   color: #f5f0e4;
   line-height: 150%;
@@ -156,10 +216,26 @@ body {
   margin: 1rem 1rem 1rem 1rem;
 }
 
+.mobile-aboutme-line {
+  color: #f5f0e4;
+  line-height: 150%;
+  font-weight: 400;
+  font-size: 1.75vh;
+  margin: 1rem 1rem 1rem 1rem;
+}
+
 .aboutme-name {
   color: #faec98;
   font-weight: 600;
   font-size: 2.5vw;
+  padding: 1rem 0rem 0rem 1rem;
+  margin: 0% 0%;
+}
+
+.mobile-aboutme-name {
+  color: #faec98;
+  font-weight: 600;
+  font-size: 5vw;
   padding: 1rem 0rem 0rem 1rem;
   margin: 0% 0%;
 }
@@ -172,12 +248,28 @@ body {
   margin: 0% 0%;
 }
 
+.mobile-aboutme-subname {
+  color: #faec98;
+  font-weight: 400;
+  font-size: 4vw;
+  padding: 1rem 0rem 0rem 1rem;
+  margin: 0% 0%;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   background-color: #3d392f;
   padding: 1rem;
+}
+
+.mobile-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  background-color: #3d392f;
+  padding: 2vw;
 }
 
 .itemselector-card {
@@ -206,7 +298,7 @@ body {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.itemselector-display-wrapper{
+.mobile-itemselector-display-wrapper{
   display: flex;
 }
 
@@ -216,6 +308,15 @@ body {
   gap: 1.0rem;
   margin: 0rem 1.5rem 1rem 0rem;
   padding: 0rem 0rem 0rem 1rem;
+}
+
+.mobile-buttons-wrapper{
+  display: flex;
+  flex-direction: row;
+  gap: 1.0vh;
+  margin: 0rem 0vh 1vh 0rem;
+  padding: 0vh 0vh 0vh 1vh;
+  align-self: center;
 }
 
 .button-selector {
@@ -230,11 +331,21 @@ body {
   width: 13vw;
 }
 
+.mobile-button-selector {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f5f0e4;
+  font-weight: 400;
+  font-size: 3vw;
+  width: 21vw;
+}
+
 .button-selector:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   background-color: #ffd5a1;
   cursor: pointer;
-
 }
 
 
