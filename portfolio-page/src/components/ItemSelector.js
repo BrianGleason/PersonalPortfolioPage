@@ -2,11 +2,10 @@ import { useState } from "react"
 import TextAnimation from "./TextAnimation";
 
 export default function ItemSelector({input, title, color}) {
-    const screenheight = window.screen.height;
     const [selectedElement, setSelectedElement] = useState((input?.length > 0) ? input[0] : null);
 
     return (
-        <>
+        <div style={{display: "flex"}}>
             <div className="itemselector-wrapper">
                 <div className="itemselector-card">
                     <h4 style={{color: color, padding:"1rem 1rem 1rem 1rem", margin: "0% 0%"}}><TextAnimation text={title}/> </h4>
@@ -27,8 +26,10 @@ export default function ItemSelector({input, title, color}) {
                     </div>
                 </div>
             </div>
-            <img src={selectedElement.image} style={{maxWidth: "42%", maxHeight: `${screenheight * .75}px`, padding: "10rem 2rem 0rem 0rem", objectFit: "contain", objectPosition: "top"}} alt={""}></img>
-        </>
+            <div style={{display: "flex", justifyContent: "center", flex: "1"}}>
+                <img src={selectedElement.image} style={{maxWidth: "90%", maxHeight: "90%", justifySelf: "center", alignSelf: "top", padding: "10rem 0rem 0rem 0rem"}} alt={""}></img>
+            </div>
+        </div>
 
     )
 

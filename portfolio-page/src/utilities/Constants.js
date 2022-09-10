@@ -41,7 +41,7 @@ export const EXPERIENCE_DATA = [
 export const PROJECTS_DATA = [
     {
         "name": "CROWNS Prototype",
-        "description": ["In four weeks, developed a product prototype webapp with team of classmates for team of MBA students at Northwestern's Kellog School of Business to help people with less common hairtypes.",
+        "description": ["In four weeks, developed a product prototype webapp with team of classmates for team of MBA students at Northwestern's Kellogg School of Management to help people with less common hairtypes.",
         "CROWNS was designed to provide users a way to learn more about their hair and a community that can support them in finding products, stylists, and haircare recommendations from people who have had similar experiences.",
         "Built the prototype using React for the frontend, Google Auth for user information and security, Google Firestore and Firebase for data storage, Cypress for end-to-end testing, and Github Workflows for the CI/CD pipeline.",
         "Utilized frequent user testing, generation of user stories, and feedback from the project management team to continually improve user experience."],   
