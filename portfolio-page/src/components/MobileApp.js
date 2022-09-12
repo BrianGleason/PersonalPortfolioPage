@@ -48,7 +48,7 @@ function MobileApp({height}) {
 
   return (
     <div>
-      <ParticlesBg type="cobweb" bg={{zIndex: -1,width: "100%", height: "600%", position: "absolute"}} num={150}/>
+      <ParticlesBg type="cobweb" bg={{zIndex: -1,width: "100%", height: "400%", position: "absolute"}} num={150}/>
       <MobileNavbar goToAbout={goToAbout} goToExperience={goToExperience} goToProjects={goToProjects} goToResume={goToResume}/>
 
       <div style={{display: "flex", height: `100vh`}} ref={aboutSection}>
