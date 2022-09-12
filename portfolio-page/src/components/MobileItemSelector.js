@@ -18,9 +18,9 @@ export default function MobileItemSelector({input, title, color}) {
                     </div>
                 </div>
                 <div>
-                    <div style={{display: "flex", justifyContent: "center", flex: "1"}}>
+                    {selectedElement?.image && <div style={{display: "flex", justifyContent: "center", flex: "1"}}>
                         <img src={selectedElement.image} style={{maxWidth: "70%", maxHeight: "70%", justifySelf: "center", alignSelf: "top", padding: "0rem 0rem 0rem 0rem"}} alt={""}></img>
-                    </div>
+                    </div>}
                     {selectedElement.description.map((line) => (
                         <h4 className="mobile-itemselector-line">{line}</h4>
 
