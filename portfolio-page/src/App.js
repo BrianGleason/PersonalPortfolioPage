@@ -9,6 +9,7 @@ function App() {
     <Routes>
       <Route path="/" element={<AppBody />}/>
       <Route path="/resume.pdf" element={<ResumeLink/>} />
+      <Route path="/.*" element={<div> Looks like this page doesn't exist. </div>}/>
     </Routes>
   )
 }
