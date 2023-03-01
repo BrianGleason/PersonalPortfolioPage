@@ -57,7 +57,7 @@ export const PROJECTS_DATA = [
         "name": "Online Learning Algorithms",
         "description": ["Using Python and Jupyter Notebook, wrote reports on the performance and applicability of different learning algorithms like Exponential Weights and Multi-Armed Bandit as a response to a variety of auction and bidding related optimization problems.",
         "Composed formal reports comparing these algorithms' performance and learning rates through Monte Carlo Trials against various distributions and historical datasets, and designed adversarial algorithms that could take advantage of specific learning algorithms.",
-        "*Because this work was for a class that may re-use the prompts I was given, my work is not available here. If you're curious, feel free to contact me at me email or on LinkedIn for a copy of a report, links at the top of the page."],
+        "*Because this work was for a class that may re-use the prompts I was given, my work is not available here. If you're curious, feel free to contact me at my email or on LinkedIn for a copy of a report, links at the top of the page."],
         "image": ""
     }
 ]
@@ -80,7 +80,7 @@ export const MOBILE_PROJECTS_DATA = [
         "name": "Online Learning Algorithms",
         "description": ["Using Python and Jupyter Notebook, wrote reports on the performance and applicability of different learning algorithms like Exponential Weights and Multi-Armed Bandit as a response to a variety of auction and bidding related optimization problems.",
         "Composed formal reports comparing these algorithms' performance and learning rates through Monte Carlo Trials against various distributions and historical datasets, and designed adversarial algorithms that could take advantage of specific learning algorithms.",
-        "*Because this work was for a class that may re-use the prompts I was given, my work is not available here. If you're curious, feel free to contact me at me email or on LinkedIn for a copy of a report, links at the top of the page."],
+        "*Because this work was for a class that may re-use the prompts I was given, my work is not available here. If you're curious, feel free to contact y email or on LinkedIn for a copy of a report, links at the top of the page."],
         "image": ""
     }
 ]
