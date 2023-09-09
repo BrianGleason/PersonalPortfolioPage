@@ -21,4 +21,4 @@ export default function Navbar({goToAbout, goToExperience, goToProjects, goToRes
             </div>
         </nav>
     )
-}
+    }

@@ -16,9 +16,8 @@ export const PROJECTS_TITLE = "Projects";
 export const EXPERIENCE_DATA = [
     {
         "name": "CME Group",
-        "description": ["Redesigned and updated Asset Management system and user interface using Java, React, and SQL, a system that handles the data for what asset types CME Group accepts as liquidity from its customers.", 
-        "Designed interface for Asset Management system with React and Redux for effective state management, utilizing code splitting, filtering, searching, user inputs, and notifications confirming user actions and mistakes.", 
-        "Iterated on and improved project by adding new functionality to improve user experience, synchronizing styling with similar services, improving code formatting, and making optimization improvements across other pages, drawing from constructive feedback from end users, QA team, and end of internship presentation."],
+        "description": ["Migrated bulk data processing applications using Apache Spark, Java, Scala, and Python from on-prem and AWS to GCP, hosted on Google Kubernetes Engine and automated with Argo and UC4. Optimized cron jobs proccessing millions of trades on a daily basis to run within Google Dataproc.",
+            "Redesigned and updated Asset Management system and user interface using Java, React, and SQL, a system that handles the data for what asset types CME Group accepts as liquidity from its customers. Provided essential new functionalities like an audit history as well as a reworked approach to filtering, viewing, and updating to improve user experience and accuracy."],
         "image": CMECollage
     }, 
     {
